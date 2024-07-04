@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc && tsc-alias && head dist/index.js"
+  },
+  "dependencies": {
+    "lib": "*"
+  },
+  "devDependencies": {
+    "tsc-alias": "^1.8.10",
+    "typescript": "^5.5.3"
+  }
+}
